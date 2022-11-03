@@ -1,0 +1,39 @@
+{
+    "appUpdate" : {
+        "versionCode":4,
+        "source":"web/playstore",
+        "dialog":{
+            "title":"Update",
+            "message":"New version released\n-Asr Time fixed",
+            "action":"https://github.com/sibbirAhmad/appControl/raw/main/salahTime/apk/app-release.apk",
+            "posButton":"Download Now",
+            "negButton":"Cancel",
+            "autoCancel":0,
+            "exitOnCancel":1
+        }
+    },
+    "newUserMessage":{
+        "updateId":0
+    },
+    "message":{
+        "updateId":0,
+        "messageType":"dialog/webpage",
+        "dialog":{
+            "title":"Messsage Title",
+            "posButton":"Yes",
+            "negButton":"Cancel",
+            "action":"nothing/blockApp/openFacebook/openUrl/openPlaystore/downloadApp/ratingApp/openActivity",
+            "autoCancel":"1"
+        },
+        "openUrl":"Url to Open",
+        "ratingApp":"ratingApp Url",
+        "webpage":"webpage url here"
+    },
+    "ad":{
+
+    },
+    "notification":{
+
+    }
+    
+}
