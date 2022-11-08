@@ -29,7 +29,32 @@
             }
             return params;
         }
+        const json = {
+            "requestFrom": "student",
+            "request": "updateSinglePresent",
+            "subjectName": "CSE_SPRING22_49A_MAT101",
+            "studentId": "173462148"
+        };
+        var url = "https://script.google.com/macros/s/AKfycbyhpmKbSOnMIU-RYUIfzIHeEKiK8RDk-7x8hRteJPWOCeMzogrFcvs5ppNRpPHv9yIldg/exec";
+        postRequest(url,json);
+        //Get Data From Sheet
+        function postRequest(url,json){
+            fetch(url,{
+                method: "POST",
+                body: JSON.stringify(json)
+            })
+            .then(function (res) { return res.json(); })
+            .then(function (data){
+                var d = JSON.stringify(data);
+                    const obj = JSON.parse(d);
+                    console.log("JSON stringify : "+d);
+                    console.log("JSON parse  : "+obj);
+                    document.getElementById('p').innerHTML ="<data-json>"+d+"<data-json>";
+                    // let responseCode = obj.responseCode;
+                    // let responseMessage = obj.responseMessage;
 
+            })
+        }
     </script>
 </body>
 
