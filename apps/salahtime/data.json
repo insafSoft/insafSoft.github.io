@@ -12,6 +12,10 @@
             "exitOnCancel":1
         }
     },
+    "moonUpdate": {
+    "update" : "2023-04-24",
+    "hijriMonth" : 1
+  },
     "newUserMessage":{
         "updateId":0
     },
