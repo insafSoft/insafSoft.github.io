@@ -1,5 +1,5 @@
 {
-    "updateCode":0,
+    "updateCode":1,
     "appUpdate" : {
         "versionCode":4,
         "source":"web/playstore",
