@@ -1,4 +1,6 @@
 {
+    "updateCode":0,
+
     "appUpdate" : {
         "versionCode":4,
         "source":"web/playstore",
@@ -12,32 +14,10 @@
             "exitOnCancel":1
         }
     },
-    "moonUpdate": {
-    "update" : "2023-04-24",
-    "hijriMonth" : 1
-  },
-    "newUserMessage":{
-        "updateId":0
-    },
-    "message":{
-        "updateId":0,
-        "messageType":"dialog/webpage",
-        "dialog":{
-            "title":"Messsage Title",
-            "posButton":"Yes",
-            "negButton":"Cancel",
-            "action":"nothing/blockApp/openFacebook/openUrl/openPlaystore/downloadApp/ratingApp/openActivity",
-            "autoCancel":"1"
-        },
-        "openUrl":"Url to Open",
-        "ratingApp":"ratingApp Url",
-        "webpage":"webpage url here"
-    },
-    "ad":{
-
-    },
-    "notification":{
-
+    "appServer": "https://.....",
+    "moon":{
+        "seen":"2023-06-20",
+        "month":11
     }
     
 }
