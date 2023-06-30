@@ -1,20 +1,26 @@
 {
     "updateCode":0,
-
     "appUpdate" : {
         "versionCode":4,
         "source":"web/playstore",
         "dialog":{
-            "title":"Update",
+            "title":"আপডেট করুন",
             "message":"New version released\n-Asr Time fixed",
-            "action":"https://github.com/sibbirAhmad/appControl/raw/main/salahTime/apk/app-release.apk",
-            "posButton":"Download Now",
-            "negButton":"Cancel",
-            "autoCancel":0,
-            "exitOnCancel":1
+            "action":1,
+            "url":"https://insafsoft.github.io/apps/salahtime/apk/app-release.apk",
+            "package":"soft.insafservice.salahtime",
+            "posButton":"আপডেট",
+            "negButton":"",
+            "autoCancel":1,
+            "exitOnCancel":0
         }
     },
-    "appServer": "https://.....",
+    "data":{
+        "APP_SERVER" : "https://muhitasraf.xyz/api/hijri_date.php",
+        "EMERGENCY_SERVER":"https://insafsoft.github.io/apps/salahtime/data.json",
+        "APP_DOWNLOAD_URL":"https://insafsoft.github.io/apps/salahtime/"
+
+   },
     "moon":{
         "seen":"2023-06-20",
         "month":11
